@@ -6,8 +6,8 @@ export const Employees: Employee[] = [
         name: "Pelle Svensson",
         salary: 34000,
         consultant: true,
-        contractEnd: new Date(2025, 12, 17),
-        contractRenew: true
+        contractEnd: "2025-12-17",
+        contractRenew: false
     },
     {
         id: 1,
@@ -20,7 +20,7 @@ export const Employees: Employee[] = [
         name: "Lotta Olsson",
         salary: 44000,
         consultant: true,
-        contractEnd: new Date(2025, 7, 10),
+        contractEnd: "2025-07-10",
         contractRenew: false
     },
     {

@@ -3,6 +3,6 @@ export type Employee = {
     name: string,
     salary: number,
     consultant: boolean,
-    contractEnd?: Date,
+    contractEnd?: string,
     contractRenew?: boolean
 }
